@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+nav {
+    background-color: orange;
+    padding: 12px;
+    text-align: center;
+    margin: 0%;
+}
+nav a {
+   color: rgb(255, 255, 255);
+   margin: 0 10px;
+   text-decoration: none;
+}
+h1 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 2%;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 24px;
+}
+section:nth-of-type(odd) img {
+    float: left;
+    margin-right: 24px;
+}
+section:nth-of-type(even) img {
+    float: right;
+    margin-left: 24px;
+}
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
